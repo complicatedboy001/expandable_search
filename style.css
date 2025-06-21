@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+ background-color: aqua;
+ font-family: sans-serif;
+}
+.search-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top: 20%;
+}
+.searchexpandright{
+    display: inline-block;
+    display: flex;
+    justify-content:center;
+    font-size: 30px;
+    border :2px solid black;
+    align-items: center;
+    transition: width 0.4s ease;
+    overflow: hidden;
+}
+.searchicons{
+    display: flex;
+    font-size: 30px;
+    position:relative;
+   display: inline-block;
+   left: 205px;
+   bottom:30px ;
+    flex-wrap: wrap;
+    color: rgb(66, 136, 136);  
+    cursor: pointer; 
+}
+
+
